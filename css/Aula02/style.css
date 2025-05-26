@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #bfbfbf;
+    color: #222222;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #a6a6a6;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #1a1a1a;
+}
+
+main {
+    padding: 40px;
+}
+
+.filmes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.cartaz {
+    text-align: center;
+    max-width: 220px;
+    transition: transform 0.3s ease;
+    background-color: #d9d9d9;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cartaz img {
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.cartaz img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(255, 0, 0, 0.7);
+}
+
+.cartaz h2 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #1a1a1a;
+}
+
+.cartaz .descricao {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #333333;
+}
+
+/* Logo com Título */
+.logo-titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.logo-titulo img {
+    width: 90px;
+    height: 60px;
+    ;
+}
+
+.logo-titulo h1 {
+    font-size: 32px;
+    color: #1a1a1a;
+}
