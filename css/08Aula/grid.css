@@ -1,0 +1,36 @@
+@charset"UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    background-color: rgb(8, 7, 63)
+}
+
+.caixa {
+    background-color: rgb(196, 231, 255);
+    height: 100px;
+    width: 100px;
+}
+
+.caixa {
+    background-color:rgb(196, 231, 255);
+    height: 100px;
+    width: 100px;
+}
+
+.caixaEspecial{
+    grid-row: 3 / 4;
+        /* alinhar horizontamente o conteúdo*/
+    grid-column: 3 / 4;
+        /* alinhar verticalmente o conteúdo*/
+}
+ /* grid-row e grid column recebem dois valores, sendo o primeiro o valor inicial e o segundo valor final da posição do elemento de acordo com as linhas de orientação*/
+
+
