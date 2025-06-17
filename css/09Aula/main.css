@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#caixa {
+    width: 250px;
+    height: 250px;
+    background-color: steelblue;
+    transition: 3s;
+}
+
+@media screen and (max-widht: 375px) {
+    #caixa {
+        background-color: #af8;
+        transition: 3s;
+        color: black;
+    }
+}
