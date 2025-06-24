@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Horta Solidária</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">
+      <img src="/PrototipoProjeto/img/logo.jpg" width="150" height="80" alt="Logo Horta" />
+    </div>
+    <nav class="nav">
+      <a href="#">Home</a>
+      <a href="#">Projeto</a>
+      <a href="#">Produtos</a>
+      <a href="#" class="btn-voluntario">Seja voluntário</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>PROGRAMA<br>HORTA<br>SOLIDÁRIA</h1>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+
+<section id="produtos" class="produtos">
+  <h2>Nossos Produtos</h2>
+  <div class="produtos-grid">
+    <div class="card-produto">
+      <img src="/PrototipoProjeto/img/um.jpg" alt="Produto 1">
+      <h3>Produto 1</h3>
+      <p>Descrição breve do produto 1.</p>
+      <a href="#">Saiba mais</a>
+    </div>
+    <div class="card-produto">
+      <img src="/PrototipoProjeto/img/dois.jpg" alt="Produto 2">
+      <h3>Produto 2</h3>
+      <p>Descrição breve do produto 2.</p>
+      <a href="#">Saiba mais</a>
+    </div>
+    <div class="card-produto">
+      <img src="/PrototipoProjeto/img/tres33.jpg" alt="Produto 3">
+      <h3>Produto 3</h3>
+      <p>Descrição breve do produto 3.</p>
+      <a href="#">Saiba mais</a>
+    </div>
+    <div class="card-produto">
+      <img src="/PrototipoProjeto/img/cuatro.jpg" alt="Produto 4">
+      <h3>Produto 4</h3>
+      <p>Descrição breve do produto 4.</p>
+      <a href="#">Saiba mais</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- FORMULARIO -->
+ <section class="contato">
+  <h2>Fale Conosco</h2>
+  <form id="formContato">
+    <div class="form-group">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+    </div>
+    
+    <div class="form-group">
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    
+    <div class="form-group">
+      <label for="assunto">Assunto:</label>
+      <input type="text" id="assunto" name="assunto" required>
+    </div>
+    
+    <div class="form-group">
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+    </div>
+    
+    <button type="submit" class="btn-verde">Enviar</button>
+  </form>
+</section>
+<!-- FORMULARIO -->
+
+</body>
+</html>
